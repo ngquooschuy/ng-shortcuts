@@ -1,0 +1,30 @@
+{
+  "name": "ngx-hotkeys",
+  "version": "1.3.0",
+  "description": "Keyboard shortcuts for Angular in one line.",
+  "keywords": [
+    "angular",
+    "hotkeys",
+    "keyboard",
+    "shortcuts",
+    "standalone"
+  ],
+  "license": "MIT",
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "peerDependencies": {
+    "@angular/common": ">=17.0.0",
+    "@angular/core": ">=17.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false
+}

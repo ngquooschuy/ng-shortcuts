@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Angular
+.angular/
+
+# Build output
+dist/
+
+# IDE
+.vscode/
+.idea/
+
+# Demo app (not published)
+projects/demo-app/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
