@@ -27,7 +27,7 @@ jobs:
         run: npm run build:prod
 
       - name: Publish to npm
-        working-directory: dist/ngx-hotkeys
+        working-directory: dist/ng-shortcuts
         run: npm publish --provenance --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

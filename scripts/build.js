@@ -36,7 +36,7 @@ try {
     console.log(c("┌──────────────────────────────────────┐", "gray"));
     console.log(c("│   BUILD STATUS: SUCCESS             │", "green"));
     console.log(c("└──────────────────────────────────────┘", "gray"));
-    console.log(c("[DIST]", "cyan"), "dist/ngx-hotkeys");
+    console.log(c("[DIST]", "cyan"), "dist/ng-shortcuts");
     console.log(c("[TIME]", "cyan"), time + "s");
     console.log(c("[READY]", "green"), "Package ready for deploy");
     console.log("");

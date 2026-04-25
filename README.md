@@ -307,12 +307,12 @@ npm install
 npm run build:prod
 ```
 
-The compiled library lands in `dist/ngx-hotkeys/`.
+The compiled library lands in `dist/ng-shortcuts/`.
 
 ### Publish
 
 ```bash
-cd dist/ngx-hotkeys
+cd dist/ng-shortcuts
 npm publish --access public
 ```
 

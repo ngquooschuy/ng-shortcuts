@@ -1,6 +1,6 @@
 {
   "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
-  "dest": "../../dist/ngx-hotkeys",
+  "dest": "../../dist/ng-shortcuts",
   "lib": {
     "entryFile": "src/lib/public-api.ts"
   }
