@@ -16,12 +16,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ngquooschuy/ngx-toolkit.git"
+    "url": "git+https://github.com/ngquooschuy/ng-shortcuts"
   },
   "bugs": {
-    "url": "https://github.com/ngquooschuy/ngx-toolkit/issues"
+    "url": "https://github.com/ngquooschuy/ng-shortcuts/issues"
   },
-  "homepage": "https://github.com/ngquooschuy/ngx-toolkit#readme",
+  "homepage": "https://github.com/ngquooschuy/ng-shortcuts#readme",
   "peerDependencies": {
     "@angular/common": ">=17.0.0",
     "@angular/core": ">=17.0.0"
