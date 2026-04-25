@@ -4,7 +4,7 @@
 
 ```ts
 import { Component } from '@angular/core';
-import { injectHotkeys } from 'ng-shortcuts';
+import { injectHotkeys } from 'ngx-toolkit';
 
 @Component({
   selector: 'app-search',
@@ -46,7 +46,7 @@ export class SearchComponent {
 
 ```ts
 import { Injectable } from '@angular/core';
-import { injectHotkeys } from 'ng-shortcuts';
+import { injectHotkeys } from 'ngx-toolkit';
 
 @Injectable({ providedIn: 'root' })
 export class NavigationService {

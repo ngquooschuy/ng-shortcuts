@@ -26,7 +26,7 @@ console.log(c("[EXEC]", "magenta"), "Running production build...\n");
 
 try {
     execSync(
-        "ng build ng-shortcuts --configuration production",
+        "ng build ngx-toolkit --configuration production",
         { stdio: "inherit" }
     );
 
@@ -36,7 +36,7 @@ try {
     console.log(c("┌──────────────────────────────────────┐", "gray"));
     console.log(c("│   BUILD STATUS: SUCCESS             │", "green"));
     console.log(c("└──────────────────────────────────────┘", "gray"));
-    console.log(c("[DIST]", "cyan"), "dist/ng-shortcuts");
+    console.log(c("[DIST]", "cyan"), "dist/ngx-toolkit");
     console.log(c("[TIME]", "cyan"), time + "s");
     console.log(c("[READY]", "green"), "Package ready for deploy");
     console.log("");

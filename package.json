@@ -1,15 +1,15 @@
 {
-  "name": "ng-shortcuts-workspace",
+  "name": "ngx-toolkit-workspace",
   "version": "1.0.0",
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
-    "build": "ng build ng-shortcuts",
+    "build": "ng build ngx-toolkit",
     "build:package": "node scripts/build.js",
-    "build:prod": "ng build ng-shortcuts --configuration production",
-    "watch": "ng build ng-shortcuts --watch",
-    "test": "ng test ng-shortcuts"
+    "build:prod": "ng build ngx-toolkit --configuration production",
+    "watch": "ng build ngx-toolkit --watch",
+    "test": "ng test ngx-toolkit"
   },
   "dependencies": {
     "@angular/animations": "^17.0.0",

@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ng-shortcuts": {
+    "ngx-toolkit": {
       "projectType": "library",
       "root": "projects/ngx-hotkeys",
       "sourceRoot": "projects/ngx-hotkeys/src",

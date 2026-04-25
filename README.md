@@ -1,18 +1,18 @@
-# ng-shortcuts
+# ngx-toolkit
 
 > Tiny Angular keyboard shortcuts library with zero boilerplate.
 
 ## Install
 
 ```bash
-npm install ng-shortcuts
+npm install ngx-toolkit
 ```
 
 ## Quick Start
 
 ```ts
 import { Component } from '@angular/core';
-import { injectHotkeys } from 'ng-shortcuts';
+import { injectHotkeys } from 'ngx-toolkit';
 
 @Component({
   standalone: true,
@@ -49,7 +49,7 @@ hotkeys.on('g d', openDashboard);
 ## Display Shortcuts
 
 ```ts
-import { formatShortcut } from 'ng-shortcuts';
+import { formatShortcut } from 'ngx-toolkit';
 formatShortcut('mod+k');
 ```
 
@@ -90,7 +90,7 @@ Returns `off()` cleanup function.
 npm run build:prod
 ```
 
-Output: `dist/ng-shortcuts/`
+Output: `dist/ngx-toolkit/`
 
 ## License
 
