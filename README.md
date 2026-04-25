@@ -1,4 +1,4 @@
-# ngx-hotkeys
+# ng-shortcuts
 
 > Keyboard shortcuts for Angular in one line.
 
@@ -9,7 +9,7 @@ A tiny, elegant, Angular-native hotkey library with zero boilerplate.
 ## Install
 
 ```bash
-npm install ngx-hotkeys
+npm install ng-shortcuts
 ```
 
 ---
@@ -20,7 +20,7 @@ npm install ngx-hotkeys
 
 ```ts
 import { Component } from '@angular/core';
-import { injectHotkeys } from 'ngx-hotkeys';
+import { injectHotkeys } from 'ng-shortcuts';
 
 @Component({
   selector: 'app-root',
@@ -200,7 +200,7 @@ Space-separated tokens become a sequence. Press each key in order within the tim
 Format any shortcut for display. Automatically shows Mac or Windows/Linux symbols.
 
 ```ts
-import { formatShortcut } from 'ngx-hotkeys';
+import { formatShortcut } from 'ng-shortcuts';
 
 formatShortcut('mod+k');   // Mac: ⌘K  Win: Ctrl+K
 formatShortcut('shift+enter'); // Mac: ⇧↵  Win: Shift+Enter

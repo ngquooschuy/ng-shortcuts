@@ -11,6 +11,9 @@ dist/
 .vscode/
 .idea/
 
+# Qoder workspace metadata
+.qoder/
+
 # Demo app (not published)
 projects/demo-app/
 
