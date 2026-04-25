@@ -1,9 +1,7 @@
 {
   "name": "ngx-toolkit-workspace",
   "version": "1.0.0",
-  "publishConfig": {
-    "access": "public"
-  },
+  "private": true,
   "scripts": {
     "build": "ng build ngx-toolkit",
     "build:package": "node scripts/build.js",
