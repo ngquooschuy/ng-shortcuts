@@ -1,5 +1,5 @@
 {
-  "name": "ngx-hotkeys-workspace",
+  "name": "ng-shortcuts-workspace",
   "version": "1.0.0",
   "publishConfig": {
     "access": "public"
