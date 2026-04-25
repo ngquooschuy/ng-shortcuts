@@ -1,13 +1,15 @@
 {
   "name": "ngx-hotkeys-workspace",
   "version": "1.0.0",
-  "private": true,
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
-    "build": "ng build ngx-hotkeys",
+    "build": "ng build ng-shortcuts",
     "build:package": "node scripts/build.js",
-    "build:prod": "ng build ngx-hotkeys --configuration production",
-    "watch": "ng build ngx-hotkeys --watch",
-    "test": "ng test ngx-hotkeys"
+    "build:prod": "ng build ng-shortcuts --configuration production",
+    "watch": "ng build ng-shortcuts --watch",
+    "test": "ng test ng-shortcuts"
   },
   "dependencies": {
     "@angular/animations": "^17.0.0",

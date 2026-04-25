@@ -26,7 +26,7 @@ console.log(c("[EXEC]", "magenta"), "Running production build...\n");
 
 try {
     execSync(
-        "ng build ngx-hotkeys --configuration production",
+        "ng build ng-shortcuts --configuration production",
         { stdio: "inherit" }
     );
 

@@ -22,7 +22,7 @@
       "dom"
     ],
     "paths": {
-      "ngx-hotkeys": [
+      "ng-shortcuts": [
         "./projects/ngx-hotkeys/src/lib/public-api.ts"
       ]
     }
